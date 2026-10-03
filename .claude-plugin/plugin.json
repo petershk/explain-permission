@@ -1,0 +1,7 @@
+{
+  "name": "explain-permission",
+  "version": "0.1.0",
+  "description": "Explains each Claude Code permission request in plain English (WHAT, WHY, RISK) in a side pane",
+  "author": { "name": "Hermann Peterscheck", "url": "https://hermann.fyi" },
+  "types": "./types/index.d.ts"
+}

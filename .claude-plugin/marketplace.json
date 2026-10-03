@@ -1,0 +1,15 @@
+{
+  "name": "hermann-mods",
+  "owner": {
+    "name": "Hermann Peterscheck",
+    "url": "https://hermann.fyi"
+  },
+  "description": "Claude Code mods by Hermann Peterscheck",
+  "plugins": [
+    {
+      "name": "explain-permission",
+      "source": "./",
+      "description": "Explains each Claude Code permission request in plain English (WHAT, WHY, RISK) in a side pane"
+    }
+  ]
+}
