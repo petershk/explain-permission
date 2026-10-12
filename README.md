@@ -9,6 +9,22 @@ conversation and explains the request in plain English:
 
 The dialog appears right away; the explanation fills in a few seconds later. Read the pane before you answer.
 
+For example, before a `gh repo archive` loop, the pane reads something like:
+
+```
+What is Claude asking?
+
+WHAT
+Archives 52 of your GitHub repositories, one after another. Archived repos become read-only
+but keep all their code and history.
+
+WHY
+You agreed to the cleanup list Claude proposed; these are the repos it marked for archiving.
+
+RISK · MEDIUM
+This changes your GitHub account. It can be undone repo by repo with gh repo unarchive.
+```
+
 ## Use it
 
 ```sh
